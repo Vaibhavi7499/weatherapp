@@ -68,7 +68,9 @@ const UserComp = () => {
   };
   return (
     <div className="mt-5">
-      <h3 style={{ marginLeft: "125px" }}>User Management ({userList?.length >0 && userList?.length })</h3>
+      <h3 style={{ marginLeft: "125px" }}>
+        User Management ({userList?.length > 0 && userList?.length})
+      </h3>
       <div className="col-md-10 m-auto border main-container">
         <div className="col-md-10 m-auto d-flex gap-5">
           <div className="col-md-5">
