@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,4 +9,12 @@
   min-height: 100vh;
   display: grid;
   background: #e2d4ff;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: rgb(207, 205, 205) !important;
 }
